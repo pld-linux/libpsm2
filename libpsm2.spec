@@ -9,8 +9,8 @@ Group:		Libraries
 Source0:	https://github.com/cornelisnetworks/opa-psm2/archive/PSM2_%{version}/opa-psm2-PSM2_%{version}.tar.gz
 # Source0-md5:	784255506ce8e319e8221cafa8b93229
 URL:		https://github.com/cornelisnetworks/opa-psm2
-# x86_64 specific hardware, uses _mm_crc32_u64 intrinsic, so 32-bit ABI is excluded
-ExclusiveArch:	%{x8664} x32
+# x86_64 specific hardware, code assumes 64-bit pointers
+ExclusiveArch:	%{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
