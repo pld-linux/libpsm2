@@ -1,13 +1,13 @@
 Summary:	Intel PSM2 library
 Summary(pl.UTF-8):	Biblioteka Intel PSM2
 Name:		libpsm2
-Version:	11.2.230
+Version:	12.0.1
 Release:	1
 License:	BSD or GPL v2
 Group:		Libraries
 #Source0Download: https://github.com/cornelisnetworks/opa-psm2/releases
 Source0:	https://github.com/cornelisnetworks/opa-psm2/archive/PSM2_%{version}/opa-psm2-PSM2_%{version}.tar.gz
-# Source0-md5:	784255506ce8e319e8221cafa8b93229
+# Source0-md5:	f9c6d37a018d38fdee691fdcc84be834
 URL:		https://github.com/cornelisnetworks/opa-psm2
 # x86_64 specific hardware, code assumes 64-bit pointers
 ExclusiveArch:	%{x8664}
